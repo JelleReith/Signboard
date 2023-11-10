@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Wadden orgel interface</title>
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <style>
+      #min-handle {
+        width: 50px;
+        height: 50px;
+
+        top: 50%;
+        margin-top: -35px;
+        text-align: center;
+        line-height: 50px;
+        margin-left: -25px; 
+        border:10px solid #000000;
+      }
+      #max-handle {
+
+        width: 50px;
+        height: 50px;
+
+        top: 50%;
+        margin-top: -35px;
+        text-align: center;
+        line-height: 50px;
+        margin-left: -25px; 
+        border:10px solid #000000;
+
+      }
+      #handle {
+
+        width: 50px;
+        height: 50px;
+
+        top: 50%;
+        margin-top: -35px;
+        text-align: center;
+        line-height: 50px;
+        margin-left: -25px; 
+        border:10px solid #000000;
+
+      }      
+      .sliders{
+        height: 70px;
+
+      }
+
+      #value-1 > span {
+          width: 80%;
+          margin-right: 10%;
+  
+          float:right;
+          margin-top:15px
+      }
+      #value-1 > p {
+          width: 100%;
+          float:left;
+          margin-top:15px;
+          text-align:center;
+      }   
+
+      #value-2 > span {
+          width: 80%;
+          margin-right: 10%;
+  
+          float:right;
+          margin-top:15px
+      }
+      #value-2 > p {
+          width: 100%;
+          float:left;
+          margin-top:15px;
+          text-align:center;
+      }   
+
+
+      #value-3 > span {
+          width: 80%;
+          margin-right: 10%;
+  
+          float:right;
+          margin-top:15px
+      }
+      #value-3 > p {
+          width: 100%;
+          float:left;
+          margin-top:15px;
+          text-align:center;
+      }   
+
+
+      #value-4 > span {
+          width: 80%;
+          margin-right: 10%;
+  
+          float:right;
+          margin-top:15px
+      }
+      #value-4 > p {
+          width: 100%;
+          float:left;
+          margin-top:15px;
+          text-align:center;
+      }   
+
+
+      #value-5 > span {
+          width: 80%;
+          margin-right: 10%;
+  
+          float:right;
+          margin-top:15px
+      }
+      #value-5 > p {
+          width: 100%;
+          float:left;
+          margin-top:15px;
+          text-align:center;
+      }   
+
+
+      #value-6 > span {
+          width: 80%;
+          margin-right: 10%;
+  
+          float:right;
+          margin-top:15px
+      }
+      #value-6 > p {
+          width: 100%;
+          float:left;
+          margin-top:15px;
+          text-align:center;
+      }   
+
+
+    </style>
+    <script src="js/mqtt.min.js"></script>
+    <script src="js/jquery-3.6.0.js"></script>
+    <script src="js/jquery-ui.js"></script>
+    <script src="js/jquery.ui.touch-punch.min.js"></script>
+    <script src="js/mqtt.js"></script>
+    <script src="js/script.js"></script>
+    
+  
+
+  </head>
+  
+  <body>
+
+      <div id="value-1">
+        <p>
+          Value 1:
+        </p>
+        <span id="val-1" class = "sliders">
+          <div id = "handle" class="ui-slider-handle"></div>
+        </span>
+        <p>
+      </div>
+
+      <div id="value-2">
+        <p>
+          Value 2:
+        </p>
+        <span id="val-2" class = "sliders">
+          <div id = "handle" class="ui-slider-handle"></div>
+        </span>
+        <p>
+      </div>
+
+      <div id="value-3">
+        <p>
+          Value 3:
+        </p>
+        <span id="val-3" class = "sliders">
+          <div id = "handle" class="ui-slider-handle"></div>
+        </span>
+        <p>
+      </div>
+
+      <div id="value-4">
+        <p>
+          Value 4:
+        </p>
+        <span id="val-4" class = "sliders">
+          <div id = "handle" class="ui-slider-handle"></div>
+        </span>
+        <p>
+      </div>
+
+
+      <div id="value-5">
+        <p>
+          Value 5:
+        </p>
+        <span id="val-5" class = "sliders">
+          <div id = "handle" class="ui-slider-handle"></div>
+        </span>
+        <p>
+      </div>
+
+            <div id="value-6">
+        <p>
+          Value 6:
+        </p>
+        <span id="val-6" class = "sliders">
+          <div id = "handle" class="ui-slider-handle"></div>
+        </span>
+        <p>
+      </div>
+  </body>
+</html>
